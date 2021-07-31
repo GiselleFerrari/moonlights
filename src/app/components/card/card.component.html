@@ -1,1 +1,18 @@
-<p>card works!</p>
+<div class="card">
+    <img src="{{ imagen }}" alt="" class="card-img">
+    <div class="card-info">
+        <header class="card-info_header">
+
+            <!-- El párrafo se crea solo si se entrega el elemento categoría *ngIf="categoria"-->
+            <!-- El | uppercase transforma las minúsculas en mayúsculas -->
+            <!-- El | currency: 'ARS' coloca el precio en la moneda local que buscas -->
+
+            <p *ngIf="categoria" class="card-info_cat">{{ categoria | uppercase }}</p>
+            <h2 class="card-info_title">{{ titulo }}</h2>
+        </header>
+        <p class="card-info_precio">
+            <span class="card-info_icono">$</span>
+            <span class="card-info_numero">{{ precio }}</span>
+        </p>
+    </div>
+</div>
