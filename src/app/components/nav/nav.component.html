@@ -1,1 +1,55 @@
-<p>nav works!</p>
+<nav>
+    <ul class="nav">
+        <li class="nav-item">
+            <!-- routerLink para páginas internas es más performante que un href.
+            Seguimos usando href para enlaces externos
+            -->
+            <a routerLink="./" class="nav-item_link">INICIO</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="./" class="nav-item_link">PRODUCTOS</a>
+            <ul>
+                <li><a href="#">Confitería</a>
+                    <ul>
+                        <li><a href="#">Tortas</a></li>
+                        <li><a href="#">Budines</a></li>
+                        <li><a href="#">Tartas</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Bombonería</a>
+                    <ul>
+                        <li><a href="#">Rellenos</a></li>
+                        <li><a href="#">Simples</a></li>
+                        <li><a href="#">Frutales</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Especialidades</a>
+                    <ul>
+                        <li><a href="#">Cupcakes</a></li>
+                        <li><a href="#">Postres Helados</a></li>
+                        <li><a href="#">Temáticas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/recetas" class="nav-item_link">RECETAS</a>
+            <ul>
+                <li><a href="#">Dulces</a></li>
+                <li><a href="#">Salados</a></li>
+            </ul>
+        </li>
+        <li class="nav-item">
+            <a routerLink="./" class="nav-item_link">CURSOS</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="./" class="nav-item_link">CARRITO</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/sobremi" class="nav-item_link">SOBRE MI</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="./" class="nav-item_link">CONTACTO</a>
+        </li>
+    </ul>
+</nav>
