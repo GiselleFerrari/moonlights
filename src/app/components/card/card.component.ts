@@ -12,7 +12,6 @@ export class CardComponent implements OnInit {
   @Input() imagen = "/assets/images/tarjetas/lemon.jpg";
   @Input() categoria?: string;
   @Input() titulo = "Lemon Pie";
-  @Input() precio = 600;
 
   ngOnInit(): void {
   }
