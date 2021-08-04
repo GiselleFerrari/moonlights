@@ -9,6 +9,15 @@ export class FooterComponent implements OnInit {
 
   constructor() { }
 
+  //(click)="toggleInformation()"
+
+  mostrar = true
+
+  toggleInformation () {
+    // Invertimos el estado de mostrar
+    this.mostrar = !this.mostrar;
+  }
+
   ngOnInit(): void {
   }
 
