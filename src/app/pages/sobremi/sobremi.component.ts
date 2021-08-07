@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-sobremi',
@@ -8,6 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class SobremiComponent implements OnInit {
 
   constructor() { }
+
+  title = "Sobre Mi"
+
+  @Input() retrato = "/assets/images/sobremi/retrato.jpg";
 
   ngOnInit(): void {
   }
