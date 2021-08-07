@@ -1,3 +1,9 @@
+.logo {
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .card-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

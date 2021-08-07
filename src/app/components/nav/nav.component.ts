@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-nav',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
   constructor() { }
+
+  @Input() logo = "/assets/images/logo/Logo.png"
 
   ngOnInit(): void {
   }

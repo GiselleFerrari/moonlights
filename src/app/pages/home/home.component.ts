@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +9,6 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-  title = 'Moonlights';
     subtitle = '¡Bienvenidos a Moonlights Bakery! Cada producto está realizado con mucho amor ♥';
   
     cards = [
