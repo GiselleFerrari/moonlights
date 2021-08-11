@@ -9,7 +9,17 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
-    subtitle = '¡Bienvenidos a Moonlights Bakery! Cada producto está realizado con mucho amor ♥';
+    sliders = [
+      {
+      imagen: "/assets/images/slider/oreo2.jpg",
+    },{
+      imagen: "/assets/images/slider/lemon2.jpg",
+    },{
+      imagen: "/assets/images/slider/cheesecake.jpg",
+    },{
+      imagen: "/assets/images/slider/escon2.jpg",
+    }
+    ]
   
     cards = [
       {
@@ -29,7 +39,7 @@ export class HomeComponent implements OnInit {
       titulo: "Cheesecake de Frutos Rojos",  
       categoria: "Tarta a base de queso crema con frutos naturales: Arándanos,  frambuesas, moras y frutillas.",          
     }
-  ]
+    ]
 
   ngOnInit(): void {
   }

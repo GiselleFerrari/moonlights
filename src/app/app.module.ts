@@ -13,6 +13,7 @@ import { NavComponent } from './components/nav/nav.component';
 import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EncabezadoComponent } from './components/encabezado/encabezado.component';
+import { SliderComponent } from './components/slider/slider.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { EncabezadoComponent } from './components/encabezado/encabezado.componen
     NavComponent,
     CardComponent,
     FooterComponent,
-    EncabezadoComponent
+    EncabezadoComponent,
+    SliderComponent
   ],
   imports: [
     BrowserModule,

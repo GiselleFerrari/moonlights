@@ -1,13 +1,20 @@
 <app-title  
-    [subtitle]="subtitle"
 ></app-title>
+<div>
+    <div class="slider">
+        <app-slider
+            *ngFor="let slider of sliders"
+            [imagen]="slider.imagen"
+        ></app-slider>
+    </div>
 
-<div class="card-wrapper">
-    <app-card
-        *ngFor="let card of cards"
-        [imagen]="card.imagen"
-        [categoria]="card.categoria"
-        [titulo]="card.titulo"        
-    ></app-card>
+    <div class="card-wrapper">
+        <app-card
+            *ngFor="let card of cards"
+            [imagen]="card.imagen"
+            [categoria]="card.categoria"
+            [titulo]="card.titulo"        
+        ></app-card>
+    </div>
+
 </div>
-

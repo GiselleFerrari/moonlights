@@ -4,6 +4,12 @@
     margin-bottom: 20px;
 }
 
+.slider {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
 .card-wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
