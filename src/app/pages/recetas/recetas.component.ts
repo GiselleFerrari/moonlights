@@ -5,7 +5,7 @@ import { MoonlightsService } from 'src/app/moonlights.service';
 @Component({
   selector: 'app-recetas',
   templateUrl: './recetas.component.html',
-  styleUrls: ['./recetas.component.css']
+  styleUrls: ['./recetas.component.scss']
 })
 export class RecetasComponent implements OnInit {
 
