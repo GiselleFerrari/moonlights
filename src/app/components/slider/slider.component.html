@@ -1,28 +1,5 @@
 <div class="slider">
-    <div class="slides">
-        <input type="radio" name="radio-btn" id="radio1">
-        <div class="slide-first">
-            <img src="{{ imagen }}" routerLink="/recetas">
-        </div>
-    </div>
-
-    <div class="navigation-auto">
-        <div class="auto-btn1"></div>
-
-    </div>
-
-    <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-    </div>
+    <ul>
+        <li> <img src="{{ imagen }}" routerLink="/recetas"></li>
+    </ul>
 </div>
-
-<script type="text/javascript">
-var counter = 1;
-setInterval(function(){
-    document.getElementById('radio1' + counter).checked = true;
-    counter++;
-    if (counter > 4){
-        counter = 1;
-    }
-}, 5000);
-</script>

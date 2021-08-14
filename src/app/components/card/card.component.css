@@ -170,3 +170,14 @@ figure .trasera p {
     line-height: 22px;
     font-size: 16px;
 }
+
+@media screen and (max-width: 788px) {
+    figure .trasera {
+        backface-visibility: visible;
+        transform: perspective(600px) rotateY(0deg);
+    }
+
+    .contenedor-tarjetas:hover figure {
+        transform: perspective(600px) rotateY(0deg);
+    }
+}
