@@ -1,3 +1,18 @@
+#nav {
+    background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 30% left 50%/cover;
+    height: 100%;
+    width: 100%;
+        @media (max-width: 900px) {
+            background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 30% left 50%/cover;
+        }
+        @media (max-width: 767px) {
+            background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 30% left 50%/cover;
+        }
+        @media (max-width: 370px) {
+            background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 30% left 50%/cover;
+        }
+}
+
 .encabezado {
     display: flex;
     justify-content: center;
