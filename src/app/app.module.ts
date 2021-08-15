@@ -14,6 +14,9 @@ import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { EncabezadoComponent } from './components/encabezado/encabezado.component';
 import { SliderComponent } from './components/slider/slider.component';
+import { DulcesComponent } from './components/dulces/dulces.component';
+import { SaladoComponent } from './components/salado/salado.component';
+import { DulcesDataComponent } from './components/dulces-data/dulces-data.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,10 @@ import { SliderComponent } from './components/slider/slider.component';
     CardComponent,
     FooterComponent,
     EncabezadoComponent,
-    SliderComponent
+    SliderComponent,
+    DulcesComponent,
+    SaladoComponent,
+    DulcesDataComponent
   ],
   imports: [
     BrowserModule,

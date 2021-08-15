@@ -10,21 +10,28 @@ import { MoonlightsService } from 'src/app/moonlights.service';
 export class RecetasComponent implements OnInit {
 
   constructor(
-    private moonlightsService: MoonlightsService
+    private moonlights: MoonlightsService
   ) { }
 
-  datita: any;
+  // title = "Dulces"
+  mostrar = false;
+  dulces : any;
 
-  showMap () {
-    this.moonlightsService.getMap()
-    .subscribe((data: any) => {
-      console.log(data);
-      this.datita = data;
-    });
+  showDulces () {
+    this.moonlights.getDulces()
+    .subscribe((data: any)=>{
+    
+       this.dulces = data;
+  });
+}
+
+  toggleInformation () {
+    // Invertimos el estado de mostrar
+    this.mostrar = !this.mostrar;
   }
 
   ngOnInit(): void {
-    this.showMap();
+    this.showDulces();
   }
 
 }

@@ -5,14 +5,14 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class MoonlightsService {
-
+  
   constructor(
     private http: HttpClient
   ) { }
 
-  fetchUrl = "https://goo.gl/maps/98c1iQEDUKBzfx8w5";
+  fetchUrl = "/assets/recetas.json";
 
-  getMap () {
+  getDulces () {
     return this.http.get<any>(this.fetchUrl)
   }
 

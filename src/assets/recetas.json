@@ -1,0 +1,38 @@
+[   
+    {
+    "titulo":"Budín de Limón",
+    "tipo":"Ingredientes: - 200 gr. manteca a temperatura ambiente - 200 gr. azúcar - 4 huevos - Jugo y ralladura de 1 limón - 300 gr. harina común - 2 cditas. polvo de hornear (royal) - Glaseado de limón - 1 taza y 1/2 azúcar impalpable (glass) - Jugo de limón cant. necesaria",
+    "src":"/assets/images/dulces/Limon01.jpg",
+    "alt":"Budín de Limón"
+       
+    },
+    {
+    "titulo":"Alfajorcitos de Maicena",
+    "tipo":"Ingredientes: - 400 grs de harina 0000 - 100 grs de manteca o margarina - 50 ml de jugo de naranja - 100 grs de azúcar - 60 ml de aceite neutro (girasol) - Ralladura de naranja - 1 yema - Azúcar impalpable para espolvorear",
+    "src":"/assets/images/dulces/Maicena01.jpg",
+    "alt":"Alfajorcitos de Maicena"
+        
+    },
+    {
+    "titulo":"Galletitas de avena y nuez",
+    "tipo":"Deliciosas galletitas nutritivas, con avena, nuez y un poco de miel. Ideales para tardes de mates.",
+    "src":"/assets/images/dulces/Avena01.jpg",
+    "alt":"Galletitas de avena y nuez"
+        
+    },
+    {
+    "titulo":"Conitos de Dulce de Leche",
+    "tipo":"Pequeños conitos de dulce de leche, recubiertos de una fina capa de chocolate.",
+    "src":"/assets/images/dulces/Conitos01.jpg",
+    "alt":"Conitos de Dulce de Leche"
+        
+    },
+    {
+    "titulo":"Alfajorcitos de Dulce de Leche",
+    "tipo":"Bocaditos de dulce de leche, cubiertos de chocolate águila y un toque delicado de sprinkles.",
+    "src":"/assets/images/dulces/Alfajorcitos01.jpg",
+    "alt":"Alfajorcitos de Dulce de Leche"
+        
+    }
+]
+

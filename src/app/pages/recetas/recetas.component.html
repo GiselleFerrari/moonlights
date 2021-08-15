@@ -1,3 +1,28 @@
-<p>recetas works!</p>
+<button (click)="toggleInformation()">DULCES</button>
+    <div *ngIf="mostrar" class="dulces" id="dulces">
 
-<p *ngIf="datita">{{ datita.fact }}</p>
+        <!-- <app-recetas 
+        [title]="title"
+        ></app-recetas> -->
+
+        <div class="contenedor">
+            <app-dulces class="hide"
+            *ngFor="let dulce of dulces"
+            [blockTitle]="dulce.titulo"
+            [blockText]="dulce.tipo"
+            [imagen]="dulce.src"
+            [alt]="dulce.alt"
+            ></app-dulces>
+
+            <!-- <app-dulces class="show"
+            *ngFor="let dulce of dulces"
+            [blockTitle]="dulce.titulo"
+            [blockText]="dulce.tipo"
+            [imagen]="dulce.src"
+            [alt]="dulce.alt"
+            ></app-dulces> -->
+        </div>
+    </div>
+
+<button>SALADOS</button>
+
