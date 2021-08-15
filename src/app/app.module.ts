@@ -19,6 +19,7 @@ import { SaladoComponent } from './components/salado/salado.component';
 import { DulcesDataComponent } from './components/dulces-data/dulces-data.component';
 import { SearchComponent } from './components/search/search.component';
 import { HeaderComponent } from './components/header/header.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { HeaderComponent } from './components/header/header.component';
     SaladoComponent,
     DulcesDataComponent,
     SearchComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
