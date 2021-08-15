@@ -1,0 +1,89 @@
+main{
+    margin-bottom: 40px;
+}
+.bloque-imagen{
+    background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 25% left 50%/cover;
+    height: 100%;
+    width: 100%;
+        @media (max-width: 900px) {
+            background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 25% left 50%/cover;
+        }
+        @media (max-width: 767px) {
+            background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 25% left 50%/cover;
+        }
+        @media (max-width: 370px) {
+            background: fixed border-box url(/assets/images/fondo/BBGG.jpg);
+        }
+}
+.contenedor {
+    color: rgb(0, 0, 0);
+    padding: 5vw;
+    font-size: 24px;
+    
+        & h2{
+        filter: grayscale(10%);
+        border-radius: 30px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        font-size: 45px;
+        text-shadow: 3px 5px 4px rgb(175, 175, 175);
+            @media (max-width: 370px) {
+                font-size: 32px;
+                border-radius: 39px;
+                }
+        }
+        & form{
+            background-color: rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+        @media (max-width: 900px) {
+            font-size: 20px;
+        }
+        @media (max-width: 370px) {
+        padding: 1vw;
+        }
+
+}
+
+.contact-items{
+    display: block;
+    margin-bottom: 2.5vw;
+    border-radius: 1vw;
+    height: 30px;
+}
+#box-comment{
+    width: 50vw;
+    height: 15vw;
+    min-width: 190px;
+}
+
+.contact-large{
+    width: 50vw;
+    min-width: 190px;
+}
+.buttoms-contact{
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: #EDDACA;
+    display: inline-block;
+    padding: 0 3.093em;
+    text-decoration: none;
+    transition: .4s;
+    line-height: 3rem;
+    position: relative;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+        &:hover {
+            color: white;
+            background: rgba(0, 0, 0, 0.4);
+            border-radius: 30px;
+        }
+        @media (max-width: 370px) {
+            font-size: 18px;
+        }
+}
