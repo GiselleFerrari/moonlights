@@ -10,13 +10,13 @@
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .menu {
     display: flex;
     list-style: none;
-    padding: 0;
-    background-color: pink;
+    padding: 0;    
     position: relative;
     z-index: 1;
 }
@@ -37,6 +37,7 @@
 
 
 /* ESTILOS GENERALES DEL MENU - Se aplican a todos los niveles*/
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -66,6 +67,7 @@ nav a:hover {
 }
 
 /* PRIMER NIVEL - Se aplican solamente a los Item*/
+
 .menu {
     background:#EDDACA;
     display: table;
@@ -81,6 +83,7 @@ nav a:hover {
 }
 
 /* SEGUNDO NIVEL - Se aplican solamente a los Subitem*/
+
 nav li li {
     background: #7b7b7b;
     max-height: 0;
