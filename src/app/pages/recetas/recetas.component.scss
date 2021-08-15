@@ -1,7 +1,33 @@
+button {    
+    display: block;
+    padding: 8px 0;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background: #EDDACA;
+    display: block;
+    padding: 0 3.093em;
+    text-decoration: none;
+    transition: .4s;
+    line-height: 3rem;
+    position: relative;
+    border-radius: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+}
+
+
+// Botón con ToggleInformation
+
+
 #dulces {
     background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 30% left 50%/cover;
     height: 100%;
-    width: 100%;        
+    width: 100%;
         @media (max-width: 900px) {
             background: fixed border-box url(/assets/images/fondo/BBGG.jpg) top 30% left 50%/cover;
         }
@@ -17,17 +43,17 @@
     flex-direction: column;
     gap: 60px;
     margin-bottom: 40px;
-    
+
 }
 .hide {
     display: block;
     @media (max-width:1600){
-        display: none;   
+        display: none;
     }
 }
 // .show {
 //     display: none;
 //     @media (max-width:1600){
-//         display: block;   
+//         display: block;
 //     }
 // }
