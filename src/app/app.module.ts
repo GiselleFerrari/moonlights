@@ -17,6 +17,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import { DulcesComponent } from './components/dulces/dulces.component';
 import { SaladoComponent } from './components/salado/salado.component';
 import { DulcesDataComponent } from './components/dulces-data/dulces-data.component';
+import { SearchComponent } from './components/search/search.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { DulcesDataComponent } from './components/dulces-data/dulces-data.compon
     SliderComponent,
     DulcesComponent,
     SaladoComponent,
-    DulcesDataComponent
+    DulcesDataComponent,
+    SearchComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
