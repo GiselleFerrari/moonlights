@@ -1,30 +1,30 @@
 <br>
+<div id="dulces">
+    <button (click)="toggleInformation()">DULCES</button>
+        <div *ngIf="mostrar" class="dulces">
 
-<button (click)="toggleInformation()">DULCES</button>
-    <div *ngIf="mostrar" class="dulces" id="dulces">
+            <div class="contenedor">
+                <app-dulces class="hide"
+                *ngFor="let dulce of dulces"
+                [blockTitle]="dulce.titulo"
+                [blockText]="dulce.tipo"
+                [imagen]="dulce.src"
+                [alt]="dulce.alt"
+                ></app-dulces>
 
-        <div class="contenedor">
-            <app-dulces class="hide"
-            *ngFor="let dulce of dulces"
-            [blockTitle]="dulce.titulo"
-            [blockText]="dulce.tipo"
-            [imagen]="dulce.src"
-            [alt]="dulce.alt"
-            ></app-dulces>
-
-            <!-- <app-dulces class="show"
-            *ngFor="let dulce of dulces"
-            [blockTitle]="dulce.titulo"
-            [blockText]="dulce.tipo"
-            [imagen]="dulce.src"
-            [alt]="dulce.alt"
-            ></app-dulces> -->
+                <!-- <app-dulces class="show"
+                *ngFor="let dulce of dulces"
+                [blockTitle]="dulce.titulo"
+                [blockText]="dulce.tipo"
+                [imagen]="dulce.src"
+                [alt]="dulce.alt"
+                ></app-dulces> -->
+            </div>
         </div>
-    </div>
 
-<br>
+    <br>
 
-<button>SALADOS</button>
+    <button>SALADOS</button>
 
-<br>
-
+    <br>
+</div>

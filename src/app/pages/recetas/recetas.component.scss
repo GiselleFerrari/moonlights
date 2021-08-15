@@ -1,7 +1,11 @@
-button {    
+.recetas {
+    display: -webkit-inline-box;
+}
+
+button {  
+    display: -webkit-inline-box;
     display: block;
     padding: 8px 0;
-    text-align: center;
     color: rgb(0, 0, 0);
     background: #EDDACA;
     display: block;
@@ -12,12 +16,11 @@ button {
     position: relative;
     border-radius: 30px;
     font-family: 'Times New Roman', Times, serif;
-}
-
-button:hover {
-    color: white;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 30px;
+        &:hover {
+            color: white;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 30px;
+        }
 }
 
 
@@ -47,7 +50,7 @@ button:hover {
 }
 .hide {
     display: block;
-    @media (max-width:1600){
+    @media (max-width:900){
         display: none;
     }
 }
