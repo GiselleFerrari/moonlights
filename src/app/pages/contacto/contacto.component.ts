@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-contacto',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class ContactoComponent implements OnInit {
 
   constructor() { }
+
+  @Input() contacto = "/assets/images/contacto/zorrito.png";
 
   ngOnInit(): void {
   }
