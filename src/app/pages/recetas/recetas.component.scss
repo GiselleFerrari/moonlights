@@ -37,21 +37,17 @@ button {
         }
 }
 .contenedor {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    padding: 1vw;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
 
 }
-.hide {
+.show {
     display: block;
     @media (max-width:900){
         display: none;
     }
 }
-// .show {
-//     display: none;
-//     @media (max-width:1600){
-//         display: block;
-//     }
-// }
